@@ -16,3 +16,11 @@ npm start
 As long as `npm start` is running, it will **watch** your changes. You can edit `_sass/main.scss` at will. Changes are **immediately** compiled to their destinations, where `index.html` will pick them up upon reload in your browser.
 
 If you want to learn more, follow these links: [Bulma homepage](http://bulma.io) and [Documentation](http://bulma.io/documentation/overview/start/).
+
+## Build a new service worker config
+
+```sh
+cd app
+nvm use
+workbox injectManifest
+```

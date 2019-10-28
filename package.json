@@ -40,10 +40,11 @@
     "not op_mob <= 12.1"
   ],
   "scripts": {
-    "start": "rm -Rf built && mkdir built && npm run css-deploy && npm run css-watch",
+    "start": "rm -Rf built && mkdir -p built && npm run img-copy && npm run css-deploy && npm run css-watch",
     "css-deploy": "npm run css-compile && npm run css-postcss",
     "css-compile": "node-sass sass/app.scss built/app.css",
     "css-postcss": "postcss --use autoprefixer --output built/app.css built/app.css",
-    "css-watch": "npm run css-compile -- --watch --error-bell"
+    "css-watch": "npm run css-compile -- --watch --error-bell",
+    "img-copy": "mkdir -p built/img && cp -R img/* built/img"
   }
 }
