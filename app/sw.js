@@ -50,12 +50,32 @@ workbox.precaching.precacheAndRoute([
     "revision": "95c1a5ea402be16760455f145e7183ba"
   },
   {
+    "url": "android-chrome-512x512.png",
+    "revision": "08fc71069a92d0e8f6ea73c1732f165c"
+  },
+  {
     "url": "apple-touch-icon.png",
     "revision": "0179ea88792ce6413c6453738e54e2c2"
   },
   {
     "url": "browserconfig.xml",
     "revision": "e4e40b0c82d228add33b5bcfe276a859"
+  },
+  {
+    "url": "built/img/app-mockup-background.png",
+    "revision": "f36bf2034baf61d64cf703166ca59ea4"
+  },
+  {
+    "url": "built/img/app-mockup-left.png",
+    "revision": "5372d8830daa9088625a0fc4799e004e"
+  },
+  {
+    "url": "built/img/app-mockup-middle.png",
+    "revision": "03808f559519f852f6e5df977bd8ea03"
+  },
+  {
+    "url": "built/img/app-mockup-right.png",
+    "revision": "1551ffc115b1fbebd1183d61bb396641"
   },
   {
     "url": "favicon-16x16.png",
@@ -71,7 +91,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "7193a0f5f9086700b4afe70e16501601"
+    "revision": "a3dcb9f898aaf777d991acb2c13512c5"
   },
   {
     "url": "mstile-150x150.png",
@@ -79,7 +99,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "random-barcode.php",
-    "revision": "2045173380b047b8fc6e888c573dbd3c"
+    "revision": "d5ba38af67c1cea157234995679c3392"
   },
   {
     "url": "safari-pinned-tab.svg",

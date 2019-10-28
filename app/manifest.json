@@ -1,6 +1,7 @@
 {
     "name": "Nö Card - Tracking Nein Danke",
     "short_name": "Nö Card",
+    "orientation": "portrait",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -20,6 +21,6 @@
     ],
     "start_url": "/index.html",
     "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "background_color": "#564420",
     "display": "standalone"
 }
