@@ -39,7 +39,7 @@
           <div class="column is-8-desktop is-offset-2-desktop">
             <div class="content">
               <h1>Impressum</h1>
-              <p>Dies ist ein privates Projekt, wir verwenden auf der Seite keinerleih Tracking und speichern uns zur Verfügung gestellte Nummern ohne irgendwelche weiteren Daten.</p>
+              <p>Dies ist ein privates Kunstprojekt, wir verwenden auf der Seite keinerleih Tracking und speichern uns zur Verfügung gestellte Nummern ohne irgendwelche weiteren Daten.</p>
               <h3>Medieninhaber:</h3>
               <p>
                 Roland Schütz<br />
@@ -51,6 +51,11 @@
                   }
                 </style>
                 E-Mail: mail@<span style="display: none;"></span><span class="firstname"></span>schuetz.at
+                <script>
+                  var firstname = document.querySelector('.firstname');
+                  firstname.innerHTML = 'roland';
+                  firstname.classList.remove('firstname');
+                </script>
               </p>
 
               <h3>Erklärung zur Informationspflicht (Datenschutzerklärung)</h3>
