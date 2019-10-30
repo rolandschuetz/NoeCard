@@ -91,7 +91,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "a3dcb9f898aaf777d991acb2c13512c5"
+    "revision": "16922af75c39b26ba96bfe9285747bcf"
   },
   {
     "url": "mstile-150x150.png",
@@ -99,7 +99,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "random-barcode.php",
-    "revision": "d5ba38af67c1cea157234995679c3392"
+    "revision": "5800cf2d3671a26731d6bd2e59c27391"
   },
   {
     "url": "safari-pinned-tab.svg",

@@ -81,7 +81,7 @@ $primary-invert: white;
 	transform: rotate(90deg) translatey(-100%);
 	object-fit: contain;
 
-	@media all and (display-mode: standalone) {
+	@media all and (display-mode: fullscreen) {
 		width: 56.1vh;
 
 		@media (max-aspect-ratio: 393/824) { // iPhone Xish
